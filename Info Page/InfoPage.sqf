@@ -62,7 +62,7 @@ _StructuredTextBox = _display ctrlCreate ["RscStructuredText", 1120];
 _StructuredTextBox ctrlSetPosition [(7 - 3) * (0.025), (6 - 2) * (0.04),(0.8),(0.54)];
 _StructuredTextBox ctrlCommit 0;
 _StructuredTextBox ctrlSetBackgroundColor [1,1,1,0.05];
-_StructuredTextBox ctrlSetStructuredText parseText (format["<t align='left'>%1<br/>%2<br/>%3<br/>%4<br/>%5<br/>%6<br/>%7<br/>%8<br/>%9<br/>%10<br/>%11<br/>%12<br/>%12</t>",_line1Text,_line2Text,_line3Text,_line4Text,_line5Text,_line6Text,_line7Text,_line8Text,_line9Text,_line10Text,_line11Text,_line12Text,_line13Text]);
+_StructuredTextBox ctrlSetStructuredText parseText (format["<t align='left'>%1<br/>%2<br/>%3<br/>%4<br/>%5<br/>%6<br/>%7<br/>%8<br/>%9<br/>%10<br/>%11<br/>%12<br/>%13</t>",_line1Text,_line2Text,_line3Text,_line4Text,_line5Text,_line6Text,_line7Text,_line8Text,_line9Text,_line10Text,_line11Text,_line12Text,_line13Text]);
 switch (_TextColor) do {
     case (1): {
         _StructuredTextBox ctrlSetTextColor [0.886,0.255,0.259,1];
