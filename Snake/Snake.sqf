@@ -72,7 +72,7 @@ fnc_spawnFood = {
     _randY = random [4.1, 14, 23];
     _randY = round _randY;
     _food = _display ctrlCreate ["RscPicture", 5004];
-    _food ctrlSetPosition [(_randX - 3) * (0.025), (_randY - 2) * (0.04), 0.7 * (0.04), 0.7 * (0.04)];
+    _food ctrlSetPosition [(_randX - 3) * (0.025), (_randY - 2) * (0.04), 0.5 * (0.04), 0.5 * (0.04)];
     _food ctrlSetFade 0;
     _food ctrlCommit 0;
     _food ctrlSetText "#(argb,8,8,3)color(1,0,0,1)";
