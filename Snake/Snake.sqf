@@ -186,6 +186,7 @@ fnc_eatFood = {
             if (_snakeHeadX < (_foodPos select 0)+0.7 * (0.04)) then {
                 if (_snakeHeadY > (_foodPos select 1)-0.3 * (0.04)) then {
                     if (_snakeHeadY < (_foodPos select 1)+0.7 * (0.04)) then {
+                        //yeah i like ifs inside ifs inside ifs inside ifs because fuck &&
                         systemChat "NOM NOM NOM";
                         ctrlDelete ((findDisplay 24015) displayCtrl 5004);
                         foodCount = foodCount - 1;
